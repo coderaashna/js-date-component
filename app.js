@@ -37,7 +37,6 @@ function validate() {
         Month: 11,
         Days: 31
     });
-    //Date.push({id:200,name:'Mahesh',age:35});
 
     if (document.getElementsByName('day')[0].value > 31 || document.getElementsByName(('month')[0] + 1).value > 12 || document.getElementsByName('year')[0].value.length > 4) {
         alert("Invalid Date");
