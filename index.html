@@ -2,46 +2,41 @@
 
 
 <html>
+
 <body>
-<tr>
+    <tr>
 
-<link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
 
+        </script>
 
+        <tr>
+            <td><label for='day'> <b>Day </b></label></td>
+            <td><input type='text' name='day' id='day' maxlength="50" /></td>
+        </tr>
 
-</script>
+        <tr>
+            <td><label for='month'><b>Month</b></label></td>
+            <td><input type='text' name='month' id='month' maxlength="50" /></td>
 
-<tr>
-<td><label  for='day' > <b>Day </b></label></td>
-<td><input type='text' name='day' id='day'  maxlength="50" /></td>
+        </tr>
 
-</tr>
-<br />
-<tr>
-<td><label for='month' ><b>Month</b></label></td>
-<td><input type='text' name='month' id='month'  maxlength="50" /></td>
+        <tr>
+            <td><label for='year'><b>Year</b></label></td>
+            <td><input type='year' name='year' id='year' maxlength="50" /></td>
 
-</tr>
-
-<br />
-<tr>
-<td><label for='year' ><b>Year</b></label></td>
-<td><input type='year' name='year' id='year'  maxlength="50" /></td>
-
-</tr>
+        </tr>
 
 
 </body>
-<script src="app.js"> </script>
+<script src="app.js">
+</script>
 
-<form id='index' action='index.html' method='post' accept-charset='UTF-8'  >
-<input type="button" value="Check Date" onClick="validate()">
+<form id='index' action='index.html' method='post' accept-charset='UTF-8'>
+    <input type="button" value="Check Date" onClick="validate()">
 </form>
 
 
 
 
 </html>
-
-
-
